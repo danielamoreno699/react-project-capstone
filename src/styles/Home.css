@@ -117,6 +117,7 @@
 	max-width: 30em;
 }
 .search-bar input {
+  font-family: 'Lato', sans-serif;
 	background: transparent;
 	border-radius: 1.5em;
 	box-shadow: 0 0 0 0.4em #171717 inset;
@@ -202,12 +203,12 @@
 
 .search-bar input {
 
-  transition: width 0.3s ease; /* Add transition for smooth animation */
+  transition: width 0.3s ease; 
 }
 
 .search-bar input:focus,
 .search-bar input:valid {
-  width: 20rem; /* Adjust the width as needed */
+  width: 20rem; 
   height: 2rem;
 }
 
