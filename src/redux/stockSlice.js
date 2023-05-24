@@ -11,3 +11,17 @@ export const fetchData = createAsyncThunk('stocks/fetchData', async () => {
   }
   throw new Error('Failed to fetch data');
 });
+
+// fetching details of stock passing the parameter of stock
+export const fetchStockInfo = createAsyncThunk(
+    'stocks/fetchStockInfo',
+    async (stock) => {
+      const response = await fetch(`https://api.polygon.io/v3/reference/tickers/${stock}?apiKey=Vp4PFtmRiJhA03_A8hWFal2787C86E4P`);
+      if (response.ok) {
+        const data = await response.json();
+        return data.results;
+      }
+      throw new Error('Failed to fetch stock information');
+    },
+  );
+  
