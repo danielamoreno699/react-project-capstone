@@ -18,9 +18,11 @@ const Home = () => {
   }, [status, dispatch, data]);
 
   const onHandleSelect = (ticker) => {
-    dispatch(selectStock(ticker));
+    const filteredStock = data.find((stock) => stock.ticker === ticker);
+    dispatch(selectStock(filteredStock));
     navigate(`/Details/${ticker}`);
   };
+
   return (
     <>
       <div className="Container-box">
