@@ -1,0 +1,82 @@
+.detail-container {
+    height: auto;
+  }
+  
+  .txt-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .ticker {
+    width: 4rem;
+  }
+  
+  .back-symbol {
+    background-color: #b03967;
+    color: white;
+  }
+  
+  .txt-header {
+    width: 16rem;
+  }
+  
+  .txt-header h5 {
+    font-size: 14px;
+  }
+  
+  .url-txt {
+    font-weight: 8px;
+  }
+  
+  .header-detail {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 1rem;
+    background-color: #ce4177;
+    color: white;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .p-stock {
+    font-size: 10px;
+  }
+  
+  .info-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    color: white;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .info-stocks {
+    background-color: #b03967;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 10px;
+    padding: 0.3rem;
+  }
+  
+  .title-info {
+    font-weight: bold;
+  }
+  
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+  }
+  
+  .wrapper:nth-child(odd) {
+    background-color: #ce4177;
+  }
+  
+  .wrapper:nth-child(even) {
+    background-color: #b03967;
+  }
+  
+  .txt-header {
+    font-family: 'Lato', sans-serif;
+  }
+  
