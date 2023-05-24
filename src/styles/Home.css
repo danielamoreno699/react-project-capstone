@@ -1,14 +1,12 @@
 
 .Container-txt {
   display: flex;
-  justify-content: space-between;
-  padding: 2rem;
-
-  /* justify-content: center; */
-  align-items: center;
-  background-color: #ce4177;
-  color: white;
-  font-family: 'Lato', sans-serif;
+    justify-content: space-between;
+    padding: 2.1rem 2rem 4rem;
+    align-items: center;
+    background-color: #ce4177;
+    color: white;
+    font-family: 'Lato', sans-serif;
 }
 
 .p-txt-details {
