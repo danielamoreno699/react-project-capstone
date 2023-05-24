@@ -1,8 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  ![Home](./src/assets/homereact.png)
-  ![detail](./src/assets/detail.png)
+    ![detail](https://github.com/danielamoreno699/react-project-capstone/assets/68881261/01fb9d88-abf9-41d2-a125-56aa849c95bc)
 
 </div>
 
