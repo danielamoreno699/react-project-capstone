@@ -7,7 +7,21 @@ import { v4 as uuid } from 'uuid';
 import { fetchData, selectStock } from '../redux/stockSlice';
 
 const Home = () => (
-  <div>Home</div>
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
+  const { data, status } = useSelector((state) => state.stocks);
+
+  useEffect(() => {
+    if (status === 'idle' && data.length === 0) {
+      dispatch(fetchData());
+    }
+  }, [status, dispatch, data]);
+
+  const onHandleSelect = (ticker) => {
+    dispatch(selectStock(ticker));
+    navigate(`/Details/${ticker}`);
+  };
+
 );
 
 export default Home;
