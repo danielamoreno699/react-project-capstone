@@ -80,7 +80,7 @@ This project is a Single Page Application (SPA), which utilizes modern web techn
 
  [Live Demo Link](https://j-c-s-v.github.io/webpack-to-do-list/) 
 
- https://phenomenal-halva-71ce46.netlify.app/Home
+https://elegant-treacle-bdd353.netlify.app/Home
 
 loom Video : https://www.loom.com/share/2600f52416f84137ab1873b77db989db
 
