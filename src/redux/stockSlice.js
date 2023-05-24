@@ -33,4 +33,16 @@ export const fetchStockInfo = createAsyncThunk(
   
   };
   
-  
+  export const stockSlice = createSlice({
+    name: 'stocks',
+    initialState,
+    reducers: {
+      selectStock: (state, action) => {
+        const selectedStock = action.payload;
+        return {
+          ...state,
+          selectedStock,
+          stockInfo: {},
+        };
+      },
+    },
