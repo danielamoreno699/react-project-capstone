@@ -1,77 +1,75 @@
 
 .Container-txt {
-   
-    display: flex;
-    justify-content: space-between;
-    padding: 2rem;
-    /* justify-content: center; */
-    align-items: center;
-    background-color: #ce4177;
-    color: white;
-    font-family: 'Lato', sans-serif;
-  }
-  
-  .p-txt-details {
-    background-color: #b03967;
-    color: white;
-    font-size: 10px;
-    font-family: 'Lato', sans-serif;
-    padding: 0.3rem;
-  }
-  
-  .Container-stocks {
-    display: flex;
-    flex-wrap: wrap;
-    width: fit-content;
-    justify-content: center;
-    align-items: center;
-    color: white;
-  }
-  
-  .Container-stocks-item {
-    padding: 3rem;
-    flex-basis: 50%;
-    overflow-wrap: break-word;
-    color: white;
-    border:none
-  }
-  
-  .Container-stocks-item:nth-child(even) {
-    background-color: #ce4177;
-  }
-  
-  .Container-stocks-item:nth-child(odd) {
-    background-color: #b03967;
-  }
-  
-  .Container-stocks-item:nth-child(4n+1),
-  .Container-stocks-item:nth-child(4n+4) {
-    background-color: #b03967;
-  }
-  
-  .Container-stocks-item:nth-child(4n+2),
-  .Container-stocks-item:nth-child(4n+3) {
-    background-color: #ce4177;
-  }
-  
-  .item-share {
-    position: relative;
-    bottom: -3rem;
-    right: -3rem;
-  }
-  
-  .ticker {
-    font-family: 'Lato', sans-serif;
-  }
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
 
-  .txt-header {
-    font-family: 'Lato', sans-serif;
-  }
+  /* justify-content: center; */
+  align-items: center;
+  background-color: #ce4177;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
 
+.p-txt-details {
+  background-color: #b03967;
+  color: white;
+  font-size: 10px;
+  font-family: 'Lato', sans-serif;
+  padding: 0.3rem;
+}
 
-  
-  .img-s{
-    width: 30%;
-    height: 30%;
-    background-color: transparent;
-  }
+.Container-stocks {
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.Container-stocks-item {
+  padding: 3rem;
+  flex-basis: 50%;
+  overflow-wrap: break-word;
+  color: white;
+  border: none;
+}
+
+.Container-stocks-item:nth-child(even) {
+  background-color: #ce4177;
+}
+
+.Container-stocks-item:nth-child(odd) {
+  background-color: #b03967;
+}
+
+.Container-stocks-item:nth-child(4n+1),
+.Container-stocks-item:nth-child(4n+4) {
+  background-color: #b03967;
+}
+
+.Container-stocks-item:nth-child(4n+2),
+.Container-stocks-item:nth-child(4n+3) {
+  background-color: #ce4177;
+}
+
+.item-share {
+  position: relative;
+  bottom: -3rem;
+  right: -3rem;
+}
+
+.ticker {
+  font-family: 'Lato', sans-serif;
+}
+
+.txt-header {
+  font-family: 'Lato', sans-serif;
+}
+
+.img-s {
+  width: 30%;
+  height: 30%;
+  background-color: transparent;
+}
