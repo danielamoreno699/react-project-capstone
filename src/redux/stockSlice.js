@@ -74,3 +74,6 @@ export const fetchStockInfo = createAsyncThunk(
           }));
       },
     });
+
+    export const { selectStock } = stockSlice.actions;
+export default stockSlice.reducer;
