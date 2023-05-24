@@ -28,7 +28,6 @@ export const fetchStockInfo = createAsyncThunk(
 const initialState = {
   status: 'idle',
   data: [],
-  selectedStock: null,
   stockInfo: {},
 
 };
@@ -41,8 +40,7 @@ export const stockSlice = createSlice({
       const selectedStock = action.payload;
       return {
         ...state,
-        selectedStock,
-        stockInfo: {},
+        stockInfo: selectedStock,
       };
     },
   },
