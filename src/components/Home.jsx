@@ -4,8 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { v4 as uuid } from 'uuid';
 import { fetchData, selectStock } from '../redux/stockSlice';
-import stock from '../assets/stock3.png'
-
+import stock from '../assets/stock3.png';
 
 const Home = () => {
   const dispatch = useDispatch();
