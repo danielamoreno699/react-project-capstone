@@ -43,5 +43,7 @@ describe('Details', () => {
     expect(fetchStockInfo).toHaveBeenCalledWith('ABC');
     expect(screen.getByText('Stock Name')).toBeInTheDocument();
     expect(screen.getByText('ABC')).toBeInTheDocument();
+
+    expect(screen.getByTestId('details')).toMatchSnapshot();
   });
 });

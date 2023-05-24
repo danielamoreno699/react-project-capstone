@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
 const apiURL = 'https://api.polygon.io/v3/reference/tickers?market=stocks&active=true&apiKey=Vp4PFtmRiJhA03_A8hWFal2787C86E4P';
 
-// fetching stocks form home page
+// fetching stocks form home page to render the list of stocks in home page
 export const fetchData = createAsyncThunk('stocks/fetchData', async () => {
   const response = await fetch(apiURL);
   if (response.ok) {
@@ -12,7 +12,7 @@ export const fetchData = createAsyncThunk('stocks/fetchData', async () => {
   throw new Error('Failed to fetch data');
 });
 
-// fetching details of stock passing the parameter of stock
+// fetching details of stock passing the parameter of stock to the URL
 export const fetchStockInfo = createAsyncThunk(
   'stocks/fetchStockInfo',
   async (stock) => {

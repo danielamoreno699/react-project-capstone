@@ -22,7 +22,7 @@ const Details = () => {
 
   return (
     <>
-      <div className="detail-container">
+      <div data-testid="details" className="detail-container">
         <div className="back-symbol">
           <BiArrowBack onClick={onNavigateBack} />
         </div>
