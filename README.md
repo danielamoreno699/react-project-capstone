@@ -2,7 +2,7 @@
 
 <div align="center">
   ![Home](./src/assets/homereact.png)
-  ![detail](./src/assets//detail.png)
+  ![detail](./src/assets/detail.png)
 
 </div>
 
