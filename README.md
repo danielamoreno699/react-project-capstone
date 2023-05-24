@@ -1,70 +1,165 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+</div>
 
-In the project directory, you can run:
+# Market stocks app
 
-### `npm start`
+# 📗 Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [📖 About the project](#about-project)
+  - [🛠 Built with](#built-with)
+    - [Tech stack](#tech-stack)
+    - [Key features](#key-features)
+  - [🚀 Live demo](#live-demo)
+- [💻 Getting started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
+- [👷‍👷‍♀️ Authors](#authors)
+- [🔭 Future features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# 📖 About the project <a name="about-project"></a>
 
-### `npm test`
+This project is a web and mobile application that takes inspiration from the design of Nelson Sawka. It consists of two pages: the home page and the detail page. The home page showcases a selection of stocks from the Stock Market Exchange, each represented by its symbol (e.g., AAPL for APPLE Inc). Additionally, it displays the company's CIK as a numerical value, which serves as the registration number of the company before the SEC. The data used in the application is obtained from the Polygon API documentation (available at https://polygon.io/docs/stocks/get_v1_indicators_rsi__stockticker).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The application is developed using React.js and Redux, which enables efficient state management. Moving to the detail page, when a user clicks on one of the displayed items, they are presented with comprehensive information about the selected stock. This information includes details like the company's city, state, type of market, and total number of employees. The data for the detail page is fetched from another API provided by Polygon, specifically designed to retrieve data for the selected item. To facilitate the retrieval and storage of this information, Redux is utilized as a central store.
 
-### `npm run build`
+This project is a Single Page Application (SPA), which utilizes modern web technologies to provide a seamless and fluid user experience. By leveraging client-side rendering, the application eliminates the need for full page reloads, enabling users to navigate within the page smoothly.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠 Built with <a name="built-with"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Tech stack <a name="tech-stack"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<details>
+  <summary>Languages and technologies</summary><br>
+  <ul>
+    <li><a href="#">React.js</a></li>
+  </ul>
+  <ul>
+    <li><a href="#">Redux</a></li>
+  </ul>
+  <ul>
+    <li><a href="#">JavaScript</a></li>
+  </ul>
+  <ul>
+    <li><a href="#">HTML5</a></li>
+  </ul>
+  <ul>
+    <li><a href="#">CSS3</a></li>
+  </ul>
+  <ul>
+    <li><a href="#">Git</a></li>
+  </ul>
+  <ul>
+    <li><a href="#">Jest</a></li>
+  </ul>
+  <ul>
+    <li><a href="#">React-testing-library</a></li>
+  </ul>
+</details>
 
-### `npm run eject`
+### Key features <a name="key-features"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **[Centralized state]**
+- **[REST API]**
+- **[Single Page Application]**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🚀 Live demo <a name="live-demo"></a>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+ [Live Demo Link](https://elegant-treacle-bdd353.netlify.app/) 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+loom Video : https://www.loom.com/share/2600f52416f84137ab1873b77db989db
 
-### Code Splitting
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 💻 Getting started <a name="getting-started"></a>
 
-### Analyzing the Bundle Size
+To get a local copy up and running, follow these steps.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Prerequisites
 
-### Making a Progressive Web App
+In order to run this project you need:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Setup
 
-### Advanced Configuration
+Clone this repository to your desired folder:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+`git clone` https://github.com/danielamoreno699/react-project-capstone/tree/project-draft
+
+### Install
+
+`npm install`
+
+### Usage
+
+`npm run start`
+
+### Run tests
+
+To run tests, run the following command:
+
+`npm run test`
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+You can deploy this project using:
 
-### `npm run build` fails to minify
+[Render](https://render.com/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## 👷‍♂️👷‍♀️ Authors <a name="authors"></a>
+
+
+👷‍♀️ **Daniela Moreno**
+
+- GitHub: [Daniela Moreno](https://github.com/danielamoreno699)
+- Twitter: [Daniela Moreno](https://twitter.com/Daniela38932450)
+- LinkedIn: [Daniela Moreno](https://www.linkedin.com/in/daniela-morenolozano/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future features <a name="future-features"></a>
+
+- [ ] **[include more api to display info]**
+- [ ] **[registration section]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you get inspired by this project you can give us a star 🙌
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank for the design idea of Nelson Sawka on Behance(https://www.behance.net/sakwadesignstudio) 🚀
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
