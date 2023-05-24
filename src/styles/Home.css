@@ -1,9 +1,10 @@
 
 .Container-txt {
-    padding: 3rem;
+   
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 2rem;
+    /* justify-content: center; */
     align-items: center;
     background-color: #ce4177;
     color: white;
@@ -29,10 +30,10 @@
   
   .Container-stocks-item {
     padding: 3rem;
-    border: 1px solid white;
     flex-basis: 50%;
     overflow-wrap: break-word;
     color: white;
+    border:none
   }
   
   .Container-stocks-item:nth-child(even) {
@@ -62,4 +63,15 @@
   .ticker {
     font-family: 'Lato', sans-serif;
   }
+
+  .txt-header {
+    font-family: 'Lato', sans-serif;
+  }
+
+
   
+  .img-s{
+    width: 30%;
+    height: 30%;
+    background-color: transparent;
+  }

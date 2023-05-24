@@ -16,11 +16,11 @@
     color: white;
   }
   
-  .txt-header {
-    width: 16rem;
+  .txt-header-detail {
+    width: 12rem;
   }
   
-  .txt-header h5 {
+  .txt-header-detail h5 {
     font-size: 14px;
   }
   
@@ -65,7 +65,7 @@
   .wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 1.5rem;
+    padding: 2rem;
   }
   
   .wrapper:nth-child(odd) {
@@ -76,7 +76,5 @@
     background-color: #b03967;
   }
   
-  .txt-header {
-    font-family: 'Lato', sans-serif;
-  }
+ 
   

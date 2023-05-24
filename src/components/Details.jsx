@@ -31,11 +31,10 @@ const Details = () => {
 
           <div className="txt-container">
 
-            <div className="txt-header">
+            <div className="txt-header-detail">
 
               <h5>{stockInfo.name}</h5>
               <p className="p-stock">{stockInfo.sic_description}</p>
-              <p className="url-txt">{stockInfo.homepage_url}</p>
 
             </div>
             <div className="ticker">

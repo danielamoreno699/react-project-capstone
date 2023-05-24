@@ -4,6 +4,8 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { v4 as uuid } from 'uuid';
 import { fetchData, selectStock } from '../redux/stockSlice';
+import stock from '../assets/stock3.png'
+
 
 const Home = () => {
   const dispatch = useDispatch();
@@ -23,12 +25,22 @@ const Home = () => {
   return (
     <>
       <div className="Container-box">
-        <div className="Container-txt">
-          <h1>Stock Market</h1>
-          <p>Here you can see the stocks</p>
-        </div>
-        <div className="p-txt-details">
-          <p>find your stocks and look for the details</p>
+
+        <div className="home-header-txt">
+          <div className="Container-txt">
+
+            <img className="img-s" src={stock} alt="stock" />
+
+            <div className="txt-header">
+              <h1>Stock Market</h1>
+              <p>Here you can see the stocks</p>
+            </div>
+
+          </div>
+          <div className="p-txt-details">
+            <p>find your stocks and look for the details</p>
+          </div>
+
         </div>
 
         <div className="Container-stocks">
