@@ -24,4 +24,13 @@ export const fetchStockInfo = createAsyncThunk(
       throw new Error('Failed to fetch stock information');
     },
   );
+
+  const initialState = {
+    status: 'idle',
+    data: [],
+    selectedStock: null,
+    stockInfo: {},
+  
+  };
+  
   
