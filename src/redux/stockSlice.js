@@ -46,3 +46,31 @@ export const fetchStockInfo = createAsyncThunk(
         };
       },
     },
+    extraReducers: (builder) => {
+        builder
+          .addCase(fetchData.pending, (state) => {
+            state.status = 'loading';
+          })
+          .addCase(fetchData.fulfilled, (state, action) => ({
+            ...state,
+            status: 'succeeded',
+            data: action.payload,
+          }))
+          .addCase(fetchData.rejected, (state, action) => ({
+            ...state,
+            status: 'failed',
+            error: action.error.message,
+          }))
+          .addCase(fetchStockInfo.fulfilled, (state, action) => ({
+            ...state,
+            status: 'succeeded',
+            stockInfo: action.payload,
+          }))
+          .addCase(fetchStockInfo.rejected, (state, action) => ({
+    
+            ...state,
+            status: 'failed',
+            error: action.error.message,
+          }));
+      },
+    });
