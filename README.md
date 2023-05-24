@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://unsplash.com/photos/04X1Yp9hNH8">
-  ![Home](homereact.png)
+
   </a>
 </div>
 
@@ -158,6 +158,6 @@ I would like to thank for the design idea of Nelson Sawka on Behance(https://www
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/J-C-S-V/Portfolio-setup-and-mobile-first/blob/main/license.md) licensed.
+This project is [MIT](./LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
