@@ -1,9 +1,9 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <a href="https://unsplash.com/photos/04X1Yp9hNH8">
+  ![Home](./src/assets/homereact.png)
+  ![detail](./src/assets//detail.png)
 
-  </a>
 </div>
 
 # Market stocks app
