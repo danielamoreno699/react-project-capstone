@@ -1,7 +1,6 @@
 <a name="readme-top"></a>
 
 <div align="center">
-    ![detail](https://github.com/danielamoreno699/react-project-capstone/assets/68881261/01fb9d88-abf9-41d2-a125-56aa849c95bc)
 
 </div>
 
@@ -81,6 +80,8 @@ This project is a Single Page Application (SPA), which utilizes modern web techn
 Under construction.
 <!-- - [Live Demo Link](https://j-c-s-v.github.io/webpack-to-do-list/) -->
 
+loom Video : https://www.loom.com/share/2600f52416f84137ab1873b77db989db
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting started <a name="getting-started"></a>
@@ -116,6 +117,7 @@ To run tests, run the following command:
 You can deploy this project using:
 
 [Render](https://render.com/)
+
 
 ## 👷‍♂️👷‍♀️ Authors <a name="authors"></a>
 
