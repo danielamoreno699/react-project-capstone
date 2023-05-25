@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-   <img src="./src/assets/detail.png" alt="logo" width="280"  height="auto" />
+   <img src="./src/assets/complete.png" alt="logo" width="280"  height="auto" />
 </div>
 
 # Market stocks app
@@ -78,7 +78,7 @@ This project is a Single Page Application (SPA), which utilizes modern web techn
 ## 🚀 Live demo <a name="live-demo"></a>
 
 
- [Live Demo Link](https://elegant-treacle-bdd353.netlify.app/) 
+ [Live Demo Link](https://venerable-sprinkles-b40b30.netlify.app) 
 
 
 loom Video : https://www.loom.com/share/2600f52416f84137ab1873b77db989db
