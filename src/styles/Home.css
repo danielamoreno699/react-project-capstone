@@ -130,10 +130,7 @@
   padding: 4.1rem 14rem 4rem;
   align-items: center;
 }
-.txt-header{
-  font-weight: 100;
-  font-size: 36px;
-}
+
 
 .img-s {
   width: 39%;
@@ -154,6 +151,15 @@
 .info-stocks p{
   font-size: 15px;
 }
+
+}
+
+@media (min-width: 1024px) {
+  .txt-header{
+  
+    font-size: 36px; 
+  }
+  
 }
 
 .img-s {
