@@ -121,6 +121,41 @@
   font-family: 'Lato', sans-serif;
 }
 
+
+@media (min-width: 768px) {
+
+.Container-txt{
+  display: flex;
+  justify-content: space-between;
+  padding: 4.1rem 14rem 4rem;
+  align-items: center;
+}
+.txt-header{
+  font-weight: 100;
+  font-size: 36px;
+}
+
+.img-s {
+  width: 39%;
+
+}
+
+.p-txt-details {
+  font-size: 15px;
+  
+}
+.txt-header-detail {
+  width: 41rem;
+}
+.txt-header-detail h5 {
+  font-size: 24px;
+}
+
+.info-stocks p{
+  font-size: 15px;
+}
+}
+
 .img-s {
   width: 30%;
   height: 30%;
