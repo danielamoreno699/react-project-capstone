@@ -54,10 +54,6 @@ const Home = () => {
 
           <div className="Container-txt ">
 
-    
-
-     
-
             <div className="txt-header">
               <h1>Stock Market</h1>
               <p>Here you can see the stocks</p>
@@ -81,8 +77,10 @@ const Home = () => {
               <p className="ticker">
                 {item.ticker}
               </p>
-              <p className="item-share">{item.cik}</p>
+              
+              <p className="item-share">{item.cik ? item.cik : 'no data'}</p>
 
+              
             </button>
           ))}
         </div>
