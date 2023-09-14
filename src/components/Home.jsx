@@ -5,7 +5,6 @@ import { useNavigate } from 'react-router-dom';
 import { v4 as uuid } from 'uuid';
 import { fetchData, selectStock } from '../redux/stockSlice';
 
-
 const Home = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -77,10 +76,9 @@ const Home = () => {
               <p className="ticker">
                 {item.ticker}
               </p>
-              
+
               <p className="item-share">{item.cik ? item.cik : 'no data'}</p>
 
-              
             </button>
           ))}
         </div>

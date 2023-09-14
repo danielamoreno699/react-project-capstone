@@ -14,8 +14,7 @@
 .back-symbol {
   background-color: #023670;
   color: white;
- 
-    height: 2rem;
+  height: 2rem;
 }
 
 .txt-header-detail {
@@ -67,23 +66,23 @@
 }
 
 .wrapper:nth-child(odd) {
-  background-color:  #0366C0;
+  background-color: #0366c0;
 }
 
 .wrapper:nth-child(even) {
   background-color: #023670;
 }
 
-@media (min-width: 768px){
-  .txt-container{
+@media (min-width: 768px) {
+  .txt-container {
     font-size: 39px;
   }
 
   .p-stock {
     font-size: 23px;
-}
+  }
 
-.txt-header-detail {
-  width: 50%;
-}
+  .txt-header-detail {
+    width: 50%;
+  }
 }
