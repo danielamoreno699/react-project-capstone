@@ -175,13 +175,14 @@
 .Container-txt{
   display: flex;
   justify-content: space-between;
- 
+ font-size: 175%;
   align-items: center;
 }
 
 .mask{
   height: 60vh;
 }
+
 
 
 
