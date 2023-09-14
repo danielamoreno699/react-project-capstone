@@ -1,6 +1,7 @@
 
 .Container-txt {
   display: flex;
+
   justify-content: space-between;
   padding: 2.1rem 2rem 4rem;
   align-items: center;
@@ -10,11 +11,16 @@
 }
 
 .p-txt-details {
+  width: 100%;
   background-color: #023670;;
   color: white;
-  font-size: 10px;
+  font-size: 12px;
   font-family: 'Lato', sans-serif;
   padding: 0.3rem;
+  
+
+  /* transform: translate(0px,0px) */
+
 }
 
 .Container-stocks {
@@ -27,8 +33,13 @@
 }
 
 .home-header-txt.mask {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* This will push .p-txt-details to the bottom */
+  align-items: center; /* Center items horizontally */
   
-  position: relative; /* Add relative positioning to create a context for ::before */
+
+  position: relative; 
 }
 
 .home-header-txt.mask::before {
@@ -58,6 +69,12 @@
 }
 
 @media (min-width: 768px) {
+
+  
+
+  .mask{
+    height: 40vh;
+  }
   .Container-stocks {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust column width as needed */
@@ -153,20 +170,20 @@
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 1440px) {
 
 .Container-txt{
   display: flex;
   justify-content: space-between;
-  padding: 4.1rem 14rem 4rem;
+ 
   align-items: center;
 }
 
 .mask{
- 
-    height: 65vh;
-  
+  height: 60vh;
 }
+
+
 
 
 .img-s {
@@ -189,21 +206,9 @@
   font-size: 15px;
 }
 
+
 }
 
-@media (min-width: 1024px) {
-  .txt-header{
-  
-    font-size: 36px; 
-  }
-  
-}
-
-.img-s {
-  width: 30%;
-  height: 30%;
-  background-color: transparent;
-}
 
 
 /* SearchBar.css */
@@ -368,5 +373,11 @@
 
   .search-btn {
     background: #f1f1f1;
+  }
+}
+
+@media (min-width: 1193){
+  .mask{
+    height: 60vh;
   }
 }
