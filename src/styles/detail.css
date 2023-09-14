@@ -14,6 +14,8 @@
 .back-symbol {
   background-color: #023670;
   color: white;
+ 
+    height: 2rem;
 }
 
 .txt-header-detail {
@@ -70,4 +72,18 @@
 
 .wrapper:nth-child(even) {
   background-color: #023670;
+}
+
+@media (min-width: 768px){
+  .txt-container{
+    font-size: 39px;
+  }
+
+  .p-stock {
+    font-size: 23px;
+}
+
+.txt-header-detail {
+  width: 50%;
+}
 }
