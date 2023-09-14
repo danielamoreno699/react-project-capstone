@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-   <img src="./src/assets/complete.png" alt="logo" width="1000"  height="500" />
+   <img src="./src/assets/stock.png" alt="logo" width="700"  height="500" />
 </div>
 
 # Market stocks app
