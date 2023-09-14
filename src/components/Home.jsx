@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { v4 as uuid } from 'uuid';
 import { fetchData, selectStock } from '../redux/stockSlice';
-import stock from '../assets/stock3.png';
+
 
 const Home = () => {
   const dispatch = useDispatch();
@@ -50,11 +50,13 @@ const Home = () => {
           </form>
         </div>
 
-        <div className="home-header-txt">
+        <div className="home-header-txt mask">
 
-          <div className="Container-txt">
+          <div className="Container-txt ">
 
-            <img className="img-s" src={stock} alt="stock" />
+    
+
+     
 
             <div className="txt-header">
               <h1>Stock Market</h1>

@@ -4,13 +4,13 @@
   justify-content: space-between;
   padding: 2.1rem 2rem 4rem;
   align-items: center;
-  background-color: #ce4177;
+  /* background-color: blue; */
   color: white;
   font-family: 'Lato', sans-serif;
 }
 
 .p-txt-details {
-  background-color: #b03967;
+  background-color: blue;
   color: white;
   font-size: 10px;
   font-family: 'Lato', sans-serif;
@@ -24,6 +24,37 @@
   justify-content: center;
   align-items: center;
   color: white;
+}
+
+.home-header-txt.mask {
+  
+  position: relative; /* Add relative positioning to create a context for ::before */
+}
+
+.home-header-txt.mask::before {
+  content: ""; /* Create an empty content box for the pseudo-element */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(26, 90, 218, 0.6), rgba(26, 90, 218, 0.6)), url('../assets/trending.avif');
+  background-size: cover;
+  opacity: 0.6;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.mask{
+  position: absolute;
+    width: 100%;
+    height: 100%;
+    /* height: 90vh; */
+    background-image: url('../assets/trending.avif');
+    background-size: cover;
+    opacity: 0.8; 
+    pointer-events: none;
+    z-index: -1;
 }
 
 @media (min-width: 768px) {
@@ -129,6 +160,12 @@
   justify-content: space-between;
   padding: 4.1rem 14rem 4rem;
   align-items: center;
+}
+
+.mask{
+ 
+    height: 65vh;
+  
 }
 
 
