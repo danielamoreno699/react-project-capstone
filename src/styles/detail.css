@@ -12,7 +12,7 @@
 }
 
 .back-symbol {
-  background-color: #b03967;
+  background-color: #023670;
   color: white;
 }
 
@@ -28,7 +28,7 @@
   display: flex;
   flex-direction: column;
   padding: 4rem 1rem;
-  background-color: #ce4177;
+  background: linear-gradient(to top, #023670 0%, #537895 100%);
   color: white;
   font-family: 'Lato', sans-serif;
 }
@@ -47,7 +47,7 @@
 }
 
 .info-stocks {
-  background-color: #b03967;
+  background-color: #023670;
   font-family: 'Lato', sans-serif;
   color: white;
   font-size: 10px;
@@ -65,9 +65,9 @@
 }
 
 .wrapper:nth-child(odd) {
-  background-color: #ce4177;
+  background-color:  #0366C0;
 }
 
 .wrapper:nth-child(even) {
-  background-color: #b03967;
+  background-color: #023670;
 }
